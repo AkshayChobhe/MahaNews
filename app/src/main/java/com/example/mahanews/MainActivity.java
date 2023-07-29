@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity implements SelectListener, V
                 manager.getsNewsHeadlines(listener,"general", query);
                 return true;
             }
-
             @Override
             public boolean onQueryTextChange(String newText) {
                 return false;

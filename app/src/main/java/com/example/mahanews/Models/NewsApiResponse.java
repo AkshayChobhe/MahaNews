@@ -12,6 +12,7 @@ public class NewsApiResponse implements Serializable {
         return status;
     }
 
+    //getter and setter for above variables
     public void setStatus(String status) {
         this.status = status;
     }

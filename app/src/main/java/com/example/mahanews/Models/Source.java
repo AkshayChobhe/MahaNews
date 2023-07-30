@@ -6,6 +6,7 @@ public class Source implements Serializable {
     String id = "";
     String name = "";
 
+    //getter and setter for above variables
     public String getId() {
         return id;
     }

@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity implements SelectListener, V
 
     @Override
     public void onClick(View v) {
+        //onclick listener on category selection
         Button button = (Button) v;
         String category = button.getText().toString();
         //dialog

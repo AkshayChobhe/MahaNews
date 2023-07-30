@@ -12,6 +12,7 @@ public class NewsHeadlines implements Serializable {
     String publishedAt = "";
     String content = "";
 
+    //getter and setter method for above variables
     public Source getSource() {
         return source;
     }

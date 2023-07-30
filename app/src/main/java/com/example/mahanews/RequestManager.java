@@ -16,6 +16,7 @@ import retrofit2.http.Query;
 public class RequestManager {
     Context context;
 
+    //api address added
     Retrofit retrofit = new Retrofit.Builder()
             .baseUrl("https://newsapi.org/v2/")
             .addConverterFactory(GsonConverterFactory.create())
@@ -38,6 +39,7 @@ public class RequestManager {
                     listener.onFetchData(response.body().getArticles(), response.message());
                 }
 
+                //if request failed
                 @Override
                 public void onFailure(Call<NewsApiResponse> call, Throwable t) {
                     //when response failed

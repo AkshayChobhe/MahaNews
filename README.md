@@ -10,9 +10,9 @@
     <td>Detailed Article View</td>
   </tr>
   <tr>    
-    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/6_framed.png?raw=true" alt="project-screenshot" width="250" height="450"></td>
-    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/1_framed.png?raw=true" alt="project-screenshot" width="250" height="450"></td>
-    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/2_framed.png?raw=true" alt="project-screenshot" width="250" height="450"></td>
+    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/6_framed.png?raw=true" alt="project-screenshot" width="220" height="450"></td>
+    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/1_framed.png?raw=true" alt="project-screenshot" width="220" height="450"></td>
+    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/2_framed.png?raw=true" alt="project-screenshot" width="220" height="450"></td>
   </tr>
  </table>
  <table>
@@ -22,9 +22,9 @@
     <td>SearchView</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/3_framed.png?raw=true" alt="project-screenshot" width="250" height="450"></td>
-    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/4_framed.png?raw=true" alt="project-screenshot" width="250" height="450"></td>
-    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/5_framed.png?raw=true" alt="project-screenshot" width="250" height="450"></td>
+    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/3_framed.png?raw=true" alt="project-screenshot" width="220" height="450"></td>
+    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/4_framed.png?raw=true" alt="project-screenshot" width="220" height="450"></td>
+    <td><img src="https://github.com/AkshayChobhe/MahaNews/blob/master/app/src/main/res/drawable/5_framed.png?raw=true" alt="project-screenshot" width="220" height="450"></td>
   </tr>
  </table>
  </p>

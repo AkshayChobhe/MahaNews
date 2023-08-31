@@ -45,41 +45,40 @@ Here are some of the project's best features:
 
 <h2> Prerequisites</h2>
 
-* Android Studio: Make sure you have Android Studio installed on your development machine.
-* API Key: Obtain an API key from a news provider (e.g., NewsAPI) to fetch news data.
+* <ins>Android Studio</ins>: Make sure you have Android Studio installed on your development machine.
+* <ins>API Key</ins>: Obtain an API key from a news provider (e.g., NewsAPI) to fetch news data.
   
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Clone the Repository</p>
+<p>1. <ins>Clone the Repository</ins></p>
 
 ```
 git clone https://github.com/AkshayChobhe/MahaNews.git
 ```
 
-<p>2. Open the Project in Android Studio</p>
-
+<p>2. <ins>Open the Project in Android Studio</ins></p>
 
 * Open Android Studio and select "Open an Existing Project". 
 * Navigate to the directory where you cloned the repository and select the "UnitConversionApp" folder.
 
-<p>3. Obtain and Add API Key:</p>
+<p>3. <ins>Obtain and Add API Key</ins></p>
 
 Obtain an API key from a news provider (e.g., NewsAPI). Open the RequestManager.java file and replace "YOUR_API_KEY" with your actual API key.
 
-<p>4. Build the Project:</p>
+<p>4. <ins>Build the Project</ins></p>
 
 * Click on "Build" in the top menu and select "Make Project."
 * This action will download the necessary dependencies and resources required for the app.
 
-<p>5. Run the App</p>
+<p>5. <ins>Run the App</ins></p>
 
 * Connect your Android device to your computer or start an emulator from Android Studio.
 * Click the "Run" button (green play icon) in Android Studio to build and install the app on the connected device or emulator.
 
-<p>6. Explore the App:</p>
+<p>6. <ins>Explore the App</ins></p>
 
 * Once the app is launched on your device, you can explore various news categories, search for articles, and view detailed information by clicking on individual articles.
-<p>7. Enjoy!:</p>
+<p>7. <ins>Enjoy !</ins></p>
 
 * That's it! You've successfully installed and set up the MahaNews Android application.
 * Feel free to customize and extend the app based on your needs and preferences.

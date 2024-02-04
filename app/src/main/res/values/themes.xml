@@ -3,6 +3,12 @@
     <style name="Base.Theme.MahaNews" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/purple_500</item>
+
+<!--        This is for enabling transitions-->
+        <item name="android:windowActivityTransitions">true</item>
+<!--        Setting up enter and exit transitions-->
+        <item name="android:windowEnterTransition">@transition/trans_anim</item>
+        <item name="android:windowExitTransition">@transition/trans_anim</item>
     </style>
 
     <style name="Theme.MahaNews" parent="Base.Theme.MahaNews" />

@@ -3,5 +3,10 @@
     <style name="Base.Theme.MahaNews" parent="Theme.Material3.Dark">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+<!--        This is for enabling transitions-->
+        <item name="android:windowActivityTransitions">true</item>
+        <!--        Setting up enter and exit transitions-->
+        <item name="android:windowEnterTransition">@transition/trans_anim</item>
+        <item name="android:windowExitTransition">@transition/trans_anim</item>
     </style>
 </resources>

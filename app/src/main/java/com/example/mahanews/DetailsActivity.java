@@ -2,7 +2,11 @@ package com.example.mahanews;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActionBar;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.transition.Fade;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -19,13 +23,23 @@ public class DetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
 
+//        Exclude title,status and action bar from fading
+//        Fade fade = new Fade();
+//        View decor = getWindow().getDecorView();
+//        fade.excludeTarget(decor.findViewById(androidx.fragment.R.id.action_container),true);
+//        fade.excludeTarget(android.R.id.statusBarBackground,true);
+//        fade.excludeTarget(android.R.id.navigationBarBackground,true);
+////        getWindow().setEnterTransition();
+//        getWindow().setExitTransition(fade);
+
+
         //getting elements by id
         txt_title = findViewById(R.id.text_detail_title);
         txt_author = findViewById(R.id.text_detail_author);
         txt_time = findViewById(R.id.text_detail_time);
         txt_detail = findViewById(R.id.text_detail_detail);
         txt_content = findViewById(R.id.text_detail_content);
-        img_news = findViewById(R.id.img_detail_news);
+        img_news = findViewById(R.id.img_headline);
 
         headlines = (NewsHeadlines) getIntent().getSerializableExtra("data");
 

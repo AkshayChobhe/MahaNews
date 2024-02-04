@@ -53,6 +53,7 @@
             android:src="@drawable/not_available"
             android:scaleType="centerCrop"
             android:layout_width="0dp"
+            android:transitionName="img1"
             android:layout_height="match_parent">
 
         </ImageView>

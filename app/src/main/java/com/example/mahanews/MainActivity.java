@@ -2,14 +2,20 @@ package com.example.mahanews;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.core.view.ViewCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.ActivityOptions;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
+import android.transition.Fade;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.mahanews.Models.NewsApiResponse;
@@ -29,6 +35,16 @@ public class MainActivity extends AppCompatActivity implements SelectListener, V
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//        Exclude title,status and action bar from fading
+//        Fade fade = new Fade();
+//        View decor = getWindow().getDecorView();
+//        fade.excludeTarget(decor.findViewById(androidx.fragment.R.id.action_container),true);
+//        fade.excludeTarget(android.R.id.statusBarBackground,true);
+//        fade.excludeTarget(android.R.id.navigationBarBackground,true);
+////        getWindow().setEnterTransition(fade);
+//        getWindow().setExitTransition(fade);
+
 
         searchView = findViewById(R.id.search_view);
 
@@ -104,9 +120,17 @@ public class MainActivity extends AppCompatActivity implements SelectListener, V
 
     @Override
     public void OnNewsClicked(NewsHeadlines headlines) {
-        startActivity(new Intent(MainActivity.this,DetailsActivity.class)
-                .putExtra("data",headlines));
+        Intent i = new Intent(MainActivity.this,DetailsActivity.class)
+                .putExtra("data",headlines);
+//        for transition
+        Bundle b = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+//        for image transition
+        final ImageView imageView = findViewById(R.id.img_headline);
+        ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this,imageView, ViewCompat.getTransitionName(imageView));
+//        startActivity(i,options.toBundle());
+        startActivity(i,b);
     }
+
 
     @Override
     public void onClick(View v) {

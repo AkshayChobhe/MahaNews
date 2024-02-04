@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <changeImageTransform-->
+<!--        android:duration="500">-->
+<!--        <targets-->
+<!--            android:targetId="@+id/img_headline"/>-->
+<!--    </changeImageTransform>-->
+
+    <explode
+        android:interpolator="@android:interpolator/linear"
+        android:duration="300"/>
+</transitionSet>

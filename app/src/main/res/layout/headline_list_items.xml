@@ -54,7 +54,8 @@
             android:scaleType="centerCrop"
             android:layout_width="0dp"
             android:transitionName="img1"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo1">
 
         </ImageView>
 

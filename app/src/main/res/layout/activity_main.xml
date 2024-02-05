@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -13,77 +14,104 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 <!--            Every text in button is capitalized if error occurs then write it as business,...-->
             <Button
                 android:id="@+id/btn_1"
-                android:text="Business"
-                android:textSize="12sp"
-                android:padding="6dp"
-                android:layout_margin="6dp"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="6dp"
+                android:text="@string/business"
+                android:background="@drawable/transparent_bg_bordered_button"
+                android:textColor="#FF6200EE"
+                android:textSize="12sp">
 
             </Button>
+
             <Button
                 android:id="@+id/btn_2"
-                android:text="Entertainment"
-                android:textSize="12sp"
-                android:padding="6dp"
-                android:layout_margin="6dp"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="6dp"
+                android:text="@string/entertainment"
+                android:textSize="12sp"
+                android:background="@drawable/transparent_bg_bordered_button"
+                android:textColor="#FF6200EE"
+                tools:ignore="TextContrastCheck">
 
             </Button>
+
             <Button
                 android:id="@+id/btn_3"
-                android:text="General"
-                android:textSize="12sp"
-                android:padding="6dp"
-                android:layout_margin="6dp"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="6dp"
+                android:text="@string/general"
+                android:background="@drawable/transparent_bg_bordered_button"
+                android:textColor="#FF6200EE"
+                android:textSize="12sp">
 
             </Button>
+
             <Button
                 android:id="@+id/btn_4"
-                android:text="Health"
-                android:textSize="12sp"
-                android:padding="6dp"
-                android:layout_margin="6dp"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="6dp"
+                android:text="@string/health"
+                android:background="@drawable/transparent_bg_bordered_button"
+                android:textColor="#FF6200EE"
+                android:textSize="12sp">
 
             </Button>
+
             <Button
                 android:id="@+id/btn_5"
-                android:text="Science"
-                android:textSize="12sp"
-                android:padding="6dp"
-                android:layout_margin="6dp"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="6dp"
+                android:text="@string/science"
+                android:background="@drawable/transparent_bg_bordered_button"
+                android:textColor="#FF6200EE"
+                android:textSize="12sp">
 
             </Button>
+
             <Button
                 android:id="@+id/btn_6"
-                android:text="Sports"
-                android:textSize="12sp"
-                android:padding="6dp"
-                android:layout_margin="6dp"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="6dp"
+                android:text="@string/sports"
+                android:background="@drawable/transparent_bg_bordered_button"
+                android:textColor="#FF6200EE"
+                android:textSize="12sp">
 
             </Button>
             <Button
                 android:id="@+id/btn_7"
-                android:text="Technology"
+                android:text="@string/technology"
                 android:textSize="12sp"
                 android:padding="6dp"
                 android:layout_margin="6dp"
+                android:background="@drawable/transparent_bg_bordered_button"
+                android:textColor="#FF6200EE"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                style="?android:attr/buttonBarButtonStyle">
 
             </Button>
         </LinearLayout>

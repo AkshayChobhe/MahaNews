@@ -59,7 +59,7 @@ git clone https://github.com/AkshayChobhe/MahaNews.git
 <p>2. <ins>Open the Project in Android Studio</ins></p>
 
 * Open Android Studio and select "Open an Existing Project". 
-* Navigate to the directory where you cloned the repository and select the "UnitConversionApp" folder.
+* Navigate to the directory where you cloned the repository and select the "MahaNews" folder.
 
 <p>3. <ins>Obtain and Add API Key</ins></p>
 
